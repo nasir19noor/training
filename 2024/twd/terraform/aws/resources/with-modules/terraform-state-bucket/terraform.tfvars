@@ -1,0 +1,1 @@
+bucket                   = "nasir-twd-terraform-state-bucket"
