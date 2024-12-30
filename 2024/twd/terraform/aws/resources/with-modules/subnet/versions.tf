@@ -6,9 +6,4 @@ terraform {
       version = ">= 4.45.0"
     }
   }
-  backend "s3" {
-    bucket = "nasir-twd-terraform-state-bucket"
-    key    = "subnet/terraform.tfstate"
-    region = "ap-southeast-1"
-  }
 }
